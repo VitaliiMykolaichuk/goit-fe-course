@@ -1,0 +1,237 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    height: 42px;
+    margin-top: 36px;
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #555252;
+}
+
+.logo::first-letter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.site-navigation-item {
+    float: right;
+    list-style: none;
+    width: 473px;
+    height: 23px;
+}
+
+.site-navigation-item li {
+    float: left;
+    margin-right: 33px;
+}
+
+.site-navigation-item a {
+    text-decoration: none;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #0f0101;
+}
+
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+    color: #1abc9c;
+}
+
+.site-navigation-item li:last-child {
+    margin-right: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.products,
+.news {
+    height: 83px;
+    font-size: 48px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #515151;
+    text-align: center;
+}
+
+.products {
+    margin-top: 84px;
+    margin-bottom: 85px;
+}
+
+.news {
+    margin-top: 74px;
+    margin-bottom: 73px;
+}
+
+.products::after,
+.news::after {
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: "";
+    margin: 32px auto 0;
+}
+
+.futured-list {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+.futured-list-item {
+    display: block;
+    width: 255px;
+    height: 322px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.futured-list-item:nth-child( 4n + 4) {
+    margin-right: 0;
+}
+
+.name-item {
+    display: inline-block;
+    width: 190px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background: black;
+    padding-top: 5px;
+    padding-left: 11px;
+}
+
+.price-item {
+    display: inline-block;
+    height: 35px;
+    width: 54px;
+    position: absolute;
+    bottom: 0px;
+    left: 201px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-top: 5px;   
+}
+
+.image-holder:hover {
+    cursor: pointer;
+}
+
+.futured-list-item:hover > .card-holder > .text-holder .name-item {
+    background: #1abc9c;
+    cursor: pointer;
+}
+
+.futured-list-item:hover > .card-holder > .text-holder .price-item {
+    background: #1abc9c;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.latest-news-list {
+    list-style: none;
+}
+
+.latest-news-item {
+    float: left;
+    height: 498px;
+    width: 350px;
+    padding: 0;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+.latest-news-list li:last-child {
+    margin-right: 0;
+}
+
+.article_name {
+    width: 326px;
+    height: 81px;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.article_name::after {
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    content: "";
+    margin: 10px;
+    margin-left: 0;
+}
+
+.article {
+    height: 65px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 26px;
+}
+
+.read-more-button {
+    border: none;
+    margin: 0;
+    margin-bottom: 80px;
+    width: 160px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #4ec6ab;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 2px; 
+    letter-spacing: -0.02em;
+}
