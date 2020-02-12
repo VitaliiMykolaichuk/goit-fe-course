@@ -219,6 +219,43 @@ body {
     position: relative;
 }
 
+.icon-like {
+    background-image: url(../img/icon_like.png);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.icon-change {
+    background-image: url(../img/icon_change.png);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.icon-reserve {
+    background-image: url(../img/icon_reserve.png);
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.icon-add_card {
+    background-image: url(../img/icon_add_card.png);
+    background-position: left;
+    position: relative;
+}
+
+.add-to-card {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    width: 100px;
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 62px; 
+}
+
 .name-item {
     display: inline-block;
     width: 190px;
@@ -261,6 +298,7 @@ body {
     width: 235px;
     height: 267px;
     opacity: 0;
+    z-index: 1;
   }
 
 .psevdocard-border {
@@ -269,14 +307,14 @@ body {
     left: 0;
     width: 235px;
     height: 267px;
-    border: 10px solid rgba(255, 255, 255, 0.45);
+    border: 10px solid rgba(255, 255, 255, 0.55);
     opacity: 0;
 }
-
 
 .card-holder:hover .psevdocard,
 .card-holder:hover .psevdocard-border {
     opacity: 1;
+    cursor: pointer;
 }
 
 .icon-like:hover,
@@ -288,11 +326,7 @@ body {
 
 .add-card:hover {
     background-color: #323232;
-}
-
-.add-card {
-    cursor: pointer;
-}
+    }
 
 .icons {
     position: absolute;
@@ -338,42 +372,6 @@ body {
     background-position: center;
 }
 
-.icon-like {
-    background-image: url(../img/icon_like.png);
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.icon-change {
-    background-image: url(../img/icon_change.png);
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.icon-reserve {
-    background-image: url(../img/icon_reserve.png);
-    border: 1px solid rgb(255, 255, 255);
-}
-
-.icon-add_card {
-    background-image: url(../img/icon_add_card.png);
-    background-position: left;
-    position: relative;
-}
-
-.add-to-card {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    width: 100px;
-    color: #ffffff;
-    position: absolute;
-    top: 10px;
-    left: 62px; 
-}
-
 .image-holder:hover {
     cursor: pointer;
 }
@@ -409,7 +407,7 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
-/* Zalipuha for hiding the text visually */
+/* ЗZalipuha for hiding the text visually */
 
 .footer-information {
     width: 1600px;
