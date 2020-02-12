@@ -1,0 +1,433 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    height: 42px;
+    margin-top: 36px;
+    margin-bottom: 14px;
+    width: 1112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #555252;
+}
+
+.logo::first-letter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.site-navigation-item {
+    float: right;
+    list-style: none;
+    width: 473px;
+    height: 23px;
+}
+
+.site-navigation-item li {
+    float: left;
+    margin-right: 30px;
+}
+
+.site-navigation-item a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #0f0101;
+}
+
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+    color: #1abc9c;
+}
+
+.site-navigation-item li:last-child {
+    margin-right: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.banner {
+    position: relative;;
+    max-width: 1600px;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.banner-image {
+    background-image: linear-gradient(to right, 
+    rgba(0, 0, 0, 0.48), 
+    rgb(0, 0, 0, 0.48)),
+    url('../img/banner.png');
+    background-color: rgba(0, 0, 0, 0.48);
+    max-width: 1600px;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.slide-news {
+    position: absolute;
+    display: block;
+    top: 217px;
+    left: 245px;
+    width: 1112px;
+    height: 132px;
+}
+
+.slide-left {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    margin: 0;
+    padding: 0;
+    width: 104px;
+    height: 104px;
+    background-image: url(../img/icon_slide_left.png);
+    background-color: rgba(26, 188, 156, 0.35);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.slide-news-name {
+    position: absolute;
+    left: 186px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.name-news {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 82px;
+    color: #ffffff;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.necessary-for-travel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 54px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.slide-right {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    margin: 0;
+    padding: 0;
+    width: 104px;
+    height: 104px;
+    background-image: url(../img/icon_slide_right.png);
+    background-color: rgba(26, 188, 156, 0.35);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(85, 162, 144, 0.65);
+    cursor: pointer;
+}
+
+.slide-right:hover,
+.slide-left:hover {
+    background-color: rgba(85, 162, 144);
+}
+
+.new-collection {
+    width: 1112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products {
+    height: 83px;
+    font-size: 48px;
+    line-height: 32px;
+    margin-top: 100px;
+    margin-bottom: 74px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #515151;
+    text-align: center;
+}
+
+.products::after {
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: "";
+    margin: 32px auto 0;
+}
+
+.products-list {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+.products-list-item {
+    display: block;
+    width: 255px;
+    height: 322px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+
+.products-list-item:nth-child( 4n + 4) {
+    margin-right: 0;
+}
+
+.card-holder {
+    position: relative;
+}
+
+.name-item {
+    display: inline-block;
+    width: 190px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background: black;
+    padding-top: 5px;
+    padding-left: 11px;
+}
+
+.price-item {
+    display: inline-block;
+    height: 35px;
+    width: 54px;
+    position: absolute;
+    bottom: 0px;
+    left: 201px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-top: 5px;   
+}
+
+.psevdocard {
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.45);
+    width: 235px;
+    height: 267px;
+    opacity: 0;
+  }
+
+.psevdocard-border {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 235px;
+    height: 267px;
+    border: 10px solid rgba(255, 255, 255, 0.45);
+    opacity: 0;
+}
+
+
+.card-holder:hover .psevdocard,
+.card-holder:hover .psevdocard-border {
+    opacity: 1;
+}
+
+.icon-like:hover,
+.icon-change:hover,
+.icon-reserve:hover {
+    background-color: #1abc9c;
+    border: 1px  solid #1abc9c;
+}
+
+.add-card:hover {
+    background-color: #323232;
+}
+
+.add-card {
+    cursor: pointer;
+}
+
+.icons {
+    position: absolute;
+    top: 80px;
+    left: 36px;
+    width: 166px;
+    height: 108px;
+}
+
+.icons-button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.icons-button li {
+    float: left;
+    margin-right: 8px;
+}
+
+.icons-button a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+}
+
+.icons-button li:nth-child(n + 3) {
+    font-size: 0;
+    margin-right: 0;
+}
+
+.icons-button li:nth-child(4) {
+    font-size: 0;
+    margin: 0;
+    width: 164px;
+    height: 48px;
+    border: 1px solid rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-like {
+    background-image: url(../img/icon_like.png);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.icon-change {
+    background-image: url(../img/icon_change.png);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.icon-reserve {
+    background-image: url(../img/icon_reserve.png);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.icon-add_card {
+    background-image: url(../img/icon_add_card.png);
+    background-position: left;
+    position: relative;
+}
+
+.add-to-card {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    width: 100px;
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 62px; 
+}
+
+.image-holder:hover {
+    cursor: pointer;
+}
+
+.products-list-item:hover > .card-holder > .text-holder .name-item {
+    background: #1abc9c;
+    cursor: pointer;
+}
+
+.products-list-item:hover > .card-holder > .text-holder .price-item {
+    background: #1abc9c;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+/* Zalipuha for hiding the text visually */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Zalipuha for hiding the text visually */
+
+.footer-information {
+    width: 1600px;
+    height: 88px;
+    background: #323232;
+    font-size: 0;
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.footer-text-colored {
+    color: #46bfa9;
+}
