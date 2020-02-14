@@ -74,20 +74,28 @@ body {
 
 .banner {
     position: relative;;
-    max-width: 1600px;
+    width: 100%;
     height: 600px;
     background-repeat: no-repeat;
 }
 
 .banner-image {
+    background-image: url('../img/banner.png');
+    max-width: 1600px;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.banner:hover .banner-image {
     background-image: linear-gradient(to right, 
     rgba(0, 0, 0, 0.48), 
     rgb(0, 0, 0, 0.48)),
     url('../img/banner.png');
     background-color: rgba(0, 0, 0, 0.48);
-    max-width: 1600px;
-    height: 600px;
-    background-repeat: no-repeat;
+}
+
+.banner:hover .slide-news {
+    opacity: 1;
 }
 
 .slide-news {
@@ -97,6 +105,8 @@ body {
     left: 245px;
     width: 1112px;
     height: 132px;
+    opacity: 0;
+    z-index: 1;
 }
 
 .slide-left {
@@ -117,6 +127,7 @@ body {
 }
 
 .slide-news-name {
+    display: block;
     position: absolute;
     left: 186px;
     top: 0px;
@@ -410,7 +421,7 @@ input[type="radio"].visually-hidden {
 /* ЗZalipuha for hiding the text visually */
 
 .footer-information {
-    width: 1600px;
+    width: 100%;
     height: 88px;
     background: #323232;
     font-size: 0;
