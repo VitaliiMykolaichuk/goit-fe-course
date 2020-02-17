@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', 'Arial' sans-serif;
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 1920px;
+    height: auto;
+}
+
+.page-header {
+    display: block;
+    max-width: 1200px;
+    margin: 39px auto 65px;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #569c88;
+}
+
+.big-latter-logo {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #569c88;
+}
+
+.site-navigation-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 490px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.site-navigation-item a {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #569c88;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 17px;
+    transition: color 200ms linear;
+}
+
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+    color: #f38181;
+    transition: color 200ms linear;
+}
+
+.site-navigation-item a:hover::after,
+.site-navigation-item a:focus::after {
+    background-color: #f38181;
+    transition: background-color 200ms linear;
+}
+
+.site-navigation-item a::after {
+    display: block;
+    width: auto;
+    height: 3px;
+    background-color: transparent;
+    content: "";
+    margin: 8px auto 0;
+    transition: background-color 200ms linear;
+}
+
+.container {
+    width: 1200px;
+     margin: 0 auto;
+}
+
+.name-section {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #333333;
+}
+
+.services-list:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+.text-decoration {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+}
+
+.text-decoration::after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    content: "";
+    margin: 43px auto;
+}
+
+.services-list {
+    display: flex;
+    width: 1200px;
+    margin: 65px auto;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-list-item {
+    display: flex;
+    width: 381px;
+    margin-bottom: 100px;
+}
+
+.services-list-item:nth-last-child(-n + 3) {
+    margin-bottom: 70px;
+}
+
+.image-services {
+    width: 80px;
+    height: 32px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.icon-photography {
+    background-image: url(../img/icon-photography.png);
+}
+
+.icon-design {
+    background-image: url(../img/icon-digital.png);
+}
+
+.icon-creativity {
+    background-image: url(../img/icon-creativity.png);
+}
+
+.icon-seo {
+    background-image: url(../img/icon-seo.png);
+}
+
+.icon-csshtml {
+    background-image: url(../img/icon-csshtml.png);
+}
+
+.icon-digital {
+    background-image: url(../img/icon-digital.png);
+}
+
+.text-services > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.text-services > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.team-info {
+    display: block;
+    width: 960px;
+    text-align: center;
+    margin: 46px auto 96px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+
+/* Zalipuha for hiding the text visually */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* ЗZalipuha for hiding the text visually */
+
+.team-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-holder {
+    text-align: center;
+    margin-top: 30px;   
+}
+
+.name-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.profession-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.card-holder {
+    position: relative;
+    width: 380px;
+}
+
+.image-holder {
+    width: 380px;
+    height: 470px;
+    z-index: 1;
+    background: #95e1d3;
+}
+
+.image-holder img{
+    width: 380px;
+    height: 470px;
+    transform: translate(0, 0);
+    z-index: 2;
+    transition: transform 200ms linear;
+}
+
+.icon-facebook {
+    background-image: url(../img/facebook.png);
+    margin-right: 1px;
+}
+
+.icon-twitter {
+    background-image: url(../img/twitter.png);
+    margin-right: 1px;
+}
+
+.icon-pinterest {
+    background-image: url(../img/pinterest.png);
+    margin-right: 1px;
+}
+
+.icon-instagram {
+    background-image: url(../img/instagram.png);
+}
+
+.psevdocard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, 
+    rgba(252, 227, 138, 0.9), 
+    rgba(243, 129, 129, 0.9) );
+    width: 380px;
+    height: 470px;
+    opacity: 0;
+    z-index: 3;
+    transform: translate(0, 0);
+    transition: transform 200ms linear;
+}
+
+.card-holder:hover .psevdocard {
+    opacity: 1;
+    transform: translate(-10px, -10px);
+    transition: transform 200ms linear;
+}
+
+.card-holder:hover  .image-holder img {
+    transform: translate(-10px, -10px);
+    transition: transform 200ms linear;
+}
+
+.icons-button {
+    position: absolute;
+    top: 207px;
+    left: 78px;
+    list-style: none;
+    height: 55px;
+    width: 223px;
+}
+
+.icons-button a {
+    display: block;
+    float: left;
+    height: 55px;
+    width: 55px;
+    background-color: #fce38a;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icons-button a:hover {
+    background-color: #95e1d3;
+    transition: 200ms linear;
+}
+
+.footer-information {
+    width: 1200px;
+    height: 62px;
+    margin: 82px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.footer-text-colored {
+    color: #f38181;
+}
+
+.form {
+    display: flex;
+}
+
+.window-email {
+    height: 40px;
+    width: 230px;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 24px;
+    color: #cccccc;
+}
+
+.button-subscribe {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background: #95e1d3;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
