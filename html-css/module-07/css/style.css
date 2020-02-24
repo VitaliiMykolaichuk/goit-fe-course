@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1400px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.page-header {
+    display: block;
+    margin: 50px auto 110px;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'WisdomScriptAJ';
+    font-size: 26px;
+    color: #fed136;
+}
+
+.site-navigation-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 485px;
+    height: 15px;
+    list-style: none;
+}
+
+.site-navigation-item a {
+    display: block;
+    font-family: 'Montserrat';
+    color: #222222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 200ms linear;
+}
+
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+    color: #fed136;
+    transition: color 200ms linear;
+}
+
+.name-section {
+    margin-bottom: 40px;
+}
+
+.name-section-main {
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', Montserrat-Bold;
+    font-size: 40px;
+    line-height: 75px;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+}
+
+.name-section-text {
+    display: block;
+    text-align: center;
+	font-family: 'Droid Serif';
+    font-size: 16px;
+    line-height: 19px;
+    color: #777777;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.image-services {
+    display: block;
+    width: 74px;
+    height: 74px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #fed136;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.e-commerce {
+    background-image: url(../img/Icon-Basket.png);
+}
+
+.responsive-web {
+    background-image: url(../img/Icon-Laptop.png);
+}
+
+.web-security {
+    background-image: url(../img/Icon-Locked.png);
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.services-list-item {
+    width: 290px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.text-services > h3 {
+    font-family: 'Montserrat', Montserrat-Bold;
+    font-size: 18px;
+    line-height: 75px;
+    color: #222222;
+}
+
+.text-services > p {
+    font-family: 'Roboto Slab', Roboto Slab Regular;
+    color: #777777;
+    letter-spacing: -0.025em;
+    font-size: 14px;
+}
+
+.contact-form {
+    max-width: 100%;
+    height: 675px;
+    background-color: #222222;
+    background-image: url(../img/Map_Image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 120px;
+    padding-top: 96px;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.form-colums {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-column-items li {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    margin-top: 30px;
+}
+
+.left-column-items li input {
+    height: 50px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 20px;
+    font-family: 'Montserrat', Montserrat-Bold;
+    color: #bbbbbb;
+    font-size: 14px;
+} 
+
+.right-column [name="your_message_visitor"] {
+    height: 210px;
+    padding: 20px;
+    width: 455px;
+    resize: none;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    margin: 30px 0 0 0;
+    font-family: 'Montserrat', Montserrat-Bold;
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+.form-colums input[type='name']:valid,
+.form-colums input[type='email']:valid {
+    outline: 1px ridge greenyellow;
+}
+
+.form-colums input[type='name']:invalid,
+.form-colums input[type='email']:invalid {
+    outline: 1px ridge red;
+}
+
+.contact_us textarea[name='your_message_visitor']:valid {
+    outline: 1px ridge greenyellow;
+}
+
+.contact_us textarea[name='your_message_visitor']:invalid {
+    outline: 1px ridge red;
+}
+
+.button-send-message {
+    display: block;
+    margin: 30px auto 0;
+    height: 66px;
+    width: 240px;
+    border: none;
+    background: #fed136;
+    cursor: pointer;
+    font-family: 'Montserrat', Montserrat-Bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: center;
+}
