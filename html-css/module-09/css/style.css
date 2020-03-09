@@ -1,0 +1,335 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 320px;
+    min-width: 320px;
+}
+
+.holiday-dreams {
+    background: url(../img/Img_1.png) center, #ff4e50;
+    min-height: 540px;
+}
+
+.left {
+    padding-top: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.right {
+    padding-top: 30px;
+    margin-left: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.log-in {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.log-in:hover,
+.log-in:focus {
+    border: 3px solid #fff;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.sign-up {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+    border: 3px solid #fff;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.name-section {
+    padding-top: 30px;
+}
+
+.name-section-main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 14px;
+}
+
+.name-section-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 8px 44px 0px;
+}
+
+.find-partner {
+    display: block;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: none;
+}
+
+.caption-meet-partner {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+    margin: 69px 0 0 0;
+    padding: 0;
+}
+
+.partner-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.partner-information {
+    display: block;
+    width: 214px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+}
+
+.image-partner {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 28px auto 20px;
+    position: relative;
+}
+
+.image-partner::after {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 4px solid white;
+    content: '';
+}
+
+.bradley_hunter_man {
+    background: url(../img/employee_1.png) center;
+    background-repeat: no-repeat;
+    margin-top: 14px;
+}
+
+.bradley_hunter_man::after  {
+    background: url(../img/Shape_1.png), #ff4e50;
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    background-position-y: 3px;
+}
+
+.lucas_marsha {
+    background: url(../img/employee_2.png) center;
+    background-repeat: no-repeat;
+}
+
+.lucas_marsha::after  {
+    background: url(../img/Shape_2.png) center, #ffa507;
+    background-repeat: no-repeat;
+}
+
+.heater_walker {
+    background: url(../img/employee_3.png) center;
+    background-repeat: no-repeat;
+}
+
+.heater_walker::after  {
+    background: url(../img/Shape_3.png) center, #1cd7ad;
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    background-position-y: 2px;
+}
+
+.bradley_hunter_woman {
+    background: url(../img/employee_4.png) center;
+    background-repeat: no-repeat;
+}
+
+.bradley_hunter_woman::after  {
+    background: url(../img/Shape_4.png) center, #4e73db;
+    background-position-x: 2px;
+    background-repeat: no-repeat;
+}
+
+.other-partners {
+    display: block;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    margin: 30px auto 56px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    background: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .wrapper {
+        max-width: 768px;
+        min-width: 768px;
+    }
+
+    .holiday-dreams {
+        background: url(../img/Img_2.png) center, #000000;
+        min-height: 700px;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .left {
+        margin-top: 47px;
+        padding: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .right {
+        margin-top: 38px;
+        padding: 0;
+        padding-left: 54px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .name-section {
+        padding-top: 142px;
+    }
+
+    .name-section-main {
+        font-size: 52px;
+        padding-right: 33px;
+    }
+
+    .name-section-text {
+        margin-top: 22px;
+        font-size: 24px;
+        padding: 4px 0 0;
+    }
+
+    .find-partner {
+        width: 226px;
+        margin-top: 32px;
+    }
+
+    .order5 {
+        order: 1;
+    }
+
+    .order1 {
+        order: 2;
+    }
+
+    .order3 {
+        order: 3;
+    }
+
+    .order6 {
+        order: 4;
+    }
+
+    .order7 {
+        order: 5;
+    }
+
+    .order2 {
+        order: 6;
+    }
+
+    .order4 {
+        order: 7;
+    }
+
+    .order8 {
+        order: 8;
+    }
+
+    .bradley_hunter_man {
+        margin-top: 28px;
+    }
+
+    .other-partners {
+        width: 192px;
+        margin: 25px auto 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .wrapper {
+        max-width: 1440px;
+        min-width: 1200px;
+    }
+
+    .holiday-dreams {
+        background: url(../img/Img_3.png) center, #000000;
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+
+    .top-position {
+        width: 942px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .top-position > .left {
+        text-align: left;
+    }
+
+    .top-position > .right {
+        text-align: right;
+    }
+
+    .partners-list {
+        width: 942px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .other-partners {
+        margin: 35px auto 75px;
+    }
+}
