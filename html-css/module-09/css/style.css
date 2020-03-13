@@ -26,8 +26,8 @@
 }
 
 .right {
+    display: flex;
     padding-top: 30px;
-    margin-left: 3px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -35,8 +35,11 @@
 }
 
 .log-in {
-    padding-top: 6px;
-    padding-bottom: 6px;
+    display: block;
+    width: 78px;
+    height: 36px;
+    /* padding-top: 6px;
+    padding-bottom: 6px; */
 }
 
 .log-in:hover,
@@ -47,8 +50,9 @@
 }
 
 .sign-up {
-    padding-top: 6px;
-    padding-bottom: 6px;
+    display: block;
+    width: 78px;
+    height: 36px;
 }
 
 .sign-up:hover,
@@ -221,7 +225,7 @@
 
     .left {
         margin-top: 47px;
-        padding: 0px;
+        padding: 0 0 6px 0;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         letter-spacing: 0.05em;
@@ -234,6 +238,7 @@
         margin-top: 38px;
         padding: 0;
         padding-left: 54px;
+        padding-right: 30px;
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-weight: 700;
@@ -260,36 +265,16 @@
         margin-top: 32px;
     }
 
-    .order5 {
-        order: 1;
-    }
-
-    .order1 {
-        order: 2;
-    }
-
-    .order3 {
+    .order2 {
         order: 3;
     }
 
-    .order6 {
-        order: 4;
-    }
-
-    .order7 {
-        order: 5;
-    }
-
-    .order2 {
-        order: 6;
+    .order3 {
+        order: 2;
     }
 
     .order4 {
-        order: 7;
-    }
-
-    .order8 {
-        order: 8;
+        order: 4;
     }
 
     .bradley_hunter_man {
@@ -313,6 +298,11 @@
         background: url(../img/Img_3.png) center, #000000;
         margin: 0 auto;
         max-width: 1440px;
+    }
+
+    .right {
+        padding: 0;
+        padding-left: 84px;
     }
 
     .top-position {
