@@ -1,0 +1,13 @@
+.team__card {
+    position: relative;
+    width: 380px;
+    &:hover .team__pseudocard {
+        opacity: 1;
+        transform: translate(-10px, -10px);
+        transition: transform 200ms linear;
+    }
+    &:hover  .team__img .team__img--photo {
+        transform: translate(-10px, -10px);
+        transition: transform 200ms linear;
+    }
+}

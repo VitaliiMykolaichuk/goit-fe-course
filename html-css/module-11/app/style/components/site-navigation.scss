@@ -1,0 +1,44 @@
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    list-style: none;
+    &__img {
+        fill: #fff;
+    }
+    &__item:last-child a {
+        padding-right: 0;
+    }
+    &__link {
+        display: block;
+        font-family: $popular-font-family;
+        font-weight: $regular;
+        color: $primary-white-color;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 17px;
+        padding: 0 26px;
+            &:hover, &:focus {
+            text-decoration: none;
+            color: $navigation-hover-color;
+            transition: color 200ms linear;
+                .site-navigation__img {
+                fill: $navigation-hover-color;
+                transition: fill 200ms linear;
+                }
+                &::after {
+                background-color: $navigation-hover-color;
+                transition: background-color 200ms linear;
+                }
+            }
+            &::after {
+            display: block;
+            width: auto;
+            height: 3px;
+            background-color: transparent;
+            content: "";
+            margin: 8px auto 0;
+            transition: background-color 200ms linear;
+            }
+    }
+}

@@ -1,0 +1,18 @@
+.page-header {
+    display: block;
+    max-width: 1920px;
+    height: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to top, 
+    rgba(252, 227, 138, 0.9), 
+    rgba(243, 129, 129, 0.9) ),
+    url(../img/banner.png) no-repeat top center;
+    background-size: cover;
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background: linear-gradient(to top, 
+        rgba(252, 227, 138, 0.9), 
+        rgba(243, 129, 129, 0.9) ),
+        url(../img/banner@2x.png) no-repeat top center;
+    }
+}
+

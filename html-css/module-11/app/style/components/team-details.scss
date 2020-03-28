@@ -1,0 +1,22 @@
+.team__details {
+    text-align: center;
+    margin-top: 30px;   
+}
+
+.team__details--name {
+    font-family: $popular-font-family;
+    font-weight: $regular;
+    font-size: 14px;
+    line-height: 17px;
+    color: $title-color;
+    text-transform: uppercase;
+}
+
+.team__details--profession {
+    font-family: $text-font-family;
+    font-weight: $light;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 24px;
+    color: $text-color;
+}

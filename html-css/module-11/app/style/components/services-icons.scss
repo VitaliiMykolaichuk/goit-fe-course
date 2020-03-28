@@ -1,0 +1,55 @@
+.services__icon {
+    width: 80px;
+    height: 32px;
+    background-size: contain;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    &--photography {
+        background-image: url(../img/icon-photography.png);
+    }
+    &--design {
+        background-image: url(../img/icon-digital.png);
+    }
+    &--creativity {
+        background-image: url(../img/icon-creativity.png);
+    }
+    &--seo {
+        background-image: url(../img/icon-seo.png);
+    }
+    
+    &--csshtml {
+        background-image: url(../img/icon-csshtml.png);
+    }
+    
+    &--digital {
+        background-image: url(../img/icon-digital.png);
+    }
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        &--photography {
+            background-image: url(../img/icon-photography@2x.png);
+        }
+        
+        &--design {
+            background-image: url(../img/icon-design@2x.png);
+        }
+        
+        &--creativity {
+            background-image: url(../img/icon-creativity@2x.png);
+        }
+        
+        &--seo {
+            background-image: url(../img/icon-seo@2x.png);
+        }
+        
+        &--csshtml {
+            background-image: url(../img/icon-csshtml@2x.png);
+        }
+        
+        &--digital {
+            background-image: url(../img/icon-digital@2x.png);
+        }
+    }
+}

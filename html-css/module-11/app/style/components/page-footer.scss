@@ -1,0 +1,47 @@
+.page-footer {
+    width: 1200px;
+    height: 62px;
+    margin: 82px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid $border-color;
+    &__text {
+        font-family: $popular-font-family;
+        font-weight: $regular;
+        font-size: 14px;
+        color: $title-color;
+    }
+    &__text--colored {
+        color: $title-decoration-color;
+    }
+    &__form{
+        display: flex;
+    }
+    &__form--email {
+        height: 40px;
+        width: 230px;
+        border: 1px solid $border-color;
+        border-right: none;
+        margin: 0;
+        padding: 10px;
+        font-family: $text-font-family;
+        font-weight: $light;
+        font-style: italic;
+        font-size: 15px;
+        line-height: 24px;
+        color: $form-color;
+    }
+    &__form--subscribe {
+        height: 40px;
+        width: 150px;
+        border: none;
+        background: $team-background;
+        cursor: pointer;
+        font-family: $popular-font-family;
+        font-weight: $bold;
+        text-transform: uppercase;
+        color: $primary-white-color;
+        font-size: 14px;
+    }
+}

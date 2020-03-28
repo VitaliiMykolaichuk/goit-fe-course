@@ -1,0 +1,29 @@
+.section__title {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    font-family: $title-font-family;
+    font-size: 24px;
+    font-weight: $regular;
+    line-height: 29px;
+    color: $title-color;
+}
+
+.section__title--decor {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: $popular-font-family;
+    font-weight: $bold;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    &::after {
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: $title-decoration-color;
+        content: "";
+        margin: 43px auto;
+    }
+}
+

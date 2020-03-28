@@ -1,0 +1,17 @@
+.social__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 55px;
+    width: 55px;
+    background-color: $navigation-hover-color;
+    &:hover {
+        background-color: $title-decoration-color;
+        transition: 200ms linear;
+    }
+    &:hover .social__img {
+        fill: $primary-white-color;
+    }
+}

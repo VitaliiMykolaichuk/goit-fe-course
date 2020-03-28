@@ -1,0 +1,43 @@
+.page-name {
+    margin-top: 145px;
+}
+
+.page-name__text {
+    display: block;
+    height: 72px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: $title-font-family;
+    font-weight: $light;
+    font-size: 72px;
+    color: $primary-white-color;
+}
+
+.page-name__main {
+    display: block;
+    text-align: center;
+    font-family: $popular-font-family;
+    font-size: 150px;
+    line-height: 140px;
+    font-weight: $bold;
+    color: $primary-white-color;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.page-name__button {
+    display: block;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    margin: 110px auto;
+    cursor: pointer;
+    font-family: $popular-font-family;
+    font-size: 14px;
+    font-weight: $bold;
+    color: $primary-white-color;
+    background: transparent;
+    border: 3px solid $primary-white-color;
+    text-transform: uppercase;
+}

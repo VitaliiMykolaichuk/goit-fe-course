@@ -1,0 +1,12 @@
+.team__img {
+    width: 380px;
+    height: 470px;
+    z-index: 1;
+    background: $team-background;
+}
+
+.team__img .team__img--photo{
+    transform: translate(0, 0);
+    z-index: 2;
+    transition: transform 200ms linear;
+}

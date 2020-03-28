@@ -1,0 +1,14 @@
+.team__pseudocard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, 
+    rgba(252, 227, 138, 0.9), 
+    rgba(243, 129, 129, 0.9) );
+    width: 380px;
+    height: 470px;
+    opacity: 0;
+    z-index: 3;
+    transform: translate(0, 0);
+    transition: transform 200ms linear;
+}
