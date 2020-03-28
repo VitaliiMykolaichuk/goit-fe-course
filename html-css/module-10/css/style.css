@@ -22,11 +22,11 @@
     background: -o-linear-gradient(bottom, 
     rgba(252, 227, 138, 0.9), 
     rgba(243, 129, 129, 0.9) ),
-    url(/img/banner.png) no-repeat top center;
+    url(../img/banner.png) no-repeat top center;
     background: linear-gradient(to top, 
     rgba(252, 227, 138, 0.9), 
     rgba(243, 129, 129, 0.9) ),
-    url(/img/banner.png) no-repeat top center;
+    url(../img/banner.png) no-repeat top center;
     background-size: cover;
 }
 
