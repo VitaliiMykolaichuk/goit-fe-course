@@ -5,11 +5,10 @@
 }
 
 .holiday-dreams {
-    background: url(../img/Img_1.png) center, #ff4e50;
+    background: url(../img/Img_1.png) center, #000;
+    background-size: cover;
     min-height: 540px;
     margin: 0 auto;
-    max-width: 320px;
-    min-width: 320px;
 }
 
 .left {
@@ -59,6 +58,7 @@
 
 .name-section {
     padding-top: 30px;
+    margin: 0 auto;
 }
 
 .name-section-main {
@@ -101,7 +101,7 @@
     font-size: 22px;
     font-weight: 700;
     color: #333333;
-    margin: 69px 0 0 0;
+    margin-top: 69px;
     padding: 0;
     text-align: center;
 }
@@ -210,9 +210,9 @@
 @media screen and (min-width: 768px) {
 
     .holiday-dreams {
-        background: url(../img/Img_3.png) center, #000000;
+        background: url(../img/Img_2.png) center, #000000;
+        background-size: cover;
         min-height: 700px;
-        max-width: 1440px;
         margin: 0 auto;
     }
 
@@ -289,8 +289,8 @@
 
     .holiday-dreams {
         background: url(../img/Img_3.png) center, #000000;
+        background-size: cover;
         margin: 0 auto;
-        max-width: 1440px;
     }
 
     .right {
